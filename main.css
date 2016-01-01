@@ -66,7 +66,7 @@ FLEXBOX GRID SYSTEM
 CONTAINER
 *************************************************/
 html {
-  background: url('images/bg-texture.png') repeat 0 0;
+  background: url('https://cloud.githubusercontent.com/assets/15381804/12069593/4996513a-b007-11e5-9a4c-82c46ed41a96.png') repeat 0 0;
 }
 
 #container {
@@ -83,7 +83,7 @@ html {
 }
 
 #container-three {
-  background: url('images/footer-bg.png') repeat 0 0;
+  background: url('https://cloud.githubusercontent.com/assets/15381804/12069595/4c73d18e-b007-11e5-814a-9902ae424a38.png') repeat 0 0;
 }
 
 /*************************************************
@@ -115,7 +115,7 @@ header {
 }
 
 #nav-top {
-  background: url('images/nav-bg.png') repeat;
+  background: url('https://cloud.githubusercontent.com/assets/15381804/12069598/4f8cce20-b007-11e5-93c6-3ae030a0aaa1.png') repeat;
 }
 
 /*************************************************
