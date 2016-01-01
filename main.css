@@ -66,7 +66,7 @@ FLEXBOX GRID SYSTEM
 CONTAINER
 *************************************************/
 html {
-  background: url('https://cloud.githubusercontent.com/assets/15381804/12069593/4996513a-b007-11e5-9a4c-82c46ed41a96.png') repeat 0 0;
+  background: url('images/bg-texture.png') repeat 0 0;
 }
 
 #container {
@@ -79,44 +79,51 @@ html {
 #container-two {
   display: flex;
   flex-flow: column wrap;
-
 }
 
 #container-three {
-  background: url('https://cloud.githubusercontent.com/assets/15381804/12069595/4c73d18e-b007-11e5-814a-9902ae424a38.png') repeat 0 0;
+  background: url('images/footer-bg.png') repeat 0 0;
 }
 
 /*************************************************
 NAV/HEADER ELEMENTS
 *************************************************/
 header {
-  text-align: center;
   width: 100%;
+
 }
 
 #nav-logo h1 {
-  display: block;
   color: white;
   background-color: rgba(229, 60, 46, 0.9);
-  padding: 20px;
   margin: 0;
   font-size: 2.5em;
   font-weight: bold;
+  text-align: center;
+  width: 320px;
+  border: 5px solid #4b281b;
+  text-shadow: 1px 1px 3px black;
+  box-shadow: inset 1px 1px 5px black;
 
 }
 
 #nav-top li {
-  padding: 0 20px;
+  padding: 0 15px;
   font-size: 2em;
   color: #4b281b;
-  font-weight: bold;
   display: inline-block;
   border-right: 2px solid white;
+  font-family: 'Gravitas One', sans-serif;
+  text-shadow: 1px 1px 1px black;
 }
 
 #nav-top {
-  background: url('https://cloud.githubusercontent.com/assets/15381804/12069598/4f8cce20-b007-11e5-93c6-3ae030a0aaa1.png') repeat;
+  background: url('images/nav-bg.png') repeat-x;
   justify-content: center;
+}
+
+#nav-top li:hover {
+  opacity: .8;
 }
 
 /*************************************************
@@ -125,6 +132,8 @@ BANNER ELEMENTS
 #banner a img {
   display: block;
   margin: 0 auto;
+  height: auto;
+  width: 100%;
 }
 
 #nav-bottom-banner ul li {
@@ -196,15 +205,12 @@ MAIN CONTENT INTRO
 #main-content-middle {
   width: 16.5%;
   height: auto;
-  border-top: 2px solid brown;
-}
-
-#main-content-middle a {
-  border-bottom: 1px solid brown;
+  border-top: 2px solid #AB9766;
 }
 
 .listings {
   margin: 15px 0;
+  border-bottom: 3px solid #AB9766;
 }
 
 .listings span {
@@ -238,17 +244,23 @@ MAIN CONTENT MIDDLE SECIONT
   color: inherit;
 }
 .event-name {
-  border-top: 2px solid brown;
+  border-top: 2px solid #AB9766;
 }
 
 .event-date {
-  margin-bottom: 15px;
+  padding: 10px 0;
+
 }
 
 .seperate {
   width: 21.5%;
-  margin: 10px;
-  border-right: 1px dotted brown;
+  padding: 0 20px;
+  border-right: 3px dotted #E1D0A5;
+  text-align: left;
+}
+
+.seperate:nth-child(7) {
+  border: none;
 }
 
 /*************************************************
@@ -265,6 +277,7 @@ MAIN CONTENT BOTTOM TWO
   background-color: #DF3B30;
   margin: 0;
   color: white;
+  padding: 0 10px;
 }
 
 .column {
@@ -349,7 +362,7 @@ WEATHER AND FORM
   color: white;
   background-color: #DF3B30;
   margin-bottom: -6px;
-  padding: 2px;
+  padding: 0 10px;
 }
 
 #wrapper {
@@ -361,6 +374,11 @@ WEATHER AND FORM
 /*************************************************
 MAIN FOOTER
 *************************************************/
+#footer-picture {
+  background: url('images/footer-autumn.png') no-repeat;
+  background-size: cover;
+  height: 350px;
+}
 #main-footer {
   display: flex;
   flex-flow: row nowrap;
@@ -377,7 +395,7 @@ MAIN FOOTER
 }
 
 .left-border {
-  border-left: 2px dotted green;
+  border-left: 3px dotted #AB9766;
 }
 
 /*************************************************
@@ -395,3 +413,7 @@ FOOTER BOTTOM
   justify-content: space-between;
   margin: 0 auto;
 }
+
+/*************************************************
+MEDIA QUERIES
+*************************************************/
