@@ -193,7 +193,6 @@ MAIN CONTENT INTRO
   margin-bottom: 30px;
 }
 #main-content-middle {
-  background-color: yellow;
   width: 16.5%;
   height: auto;
   border-top: 2px solid brown;
@@ -292,6 +291,10 @@ MAIN CONTENT BOTTOM TWO
   margin-left: 15px;
 }
 
+#bottom-banner {
+  margin-bottom: 20px;
+}
+
 /*************************************************
 WEATHER AND FORM
 *************************************************/
@@ -361,7 +364,10 @@ MAIN FOOTER
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
+  align-items: center;
   color: white;
+  margin-bottom: 40px;
+  padding-top: 20px;
 }
 
 #main-footer div {
@@ -376,3 +382,15 @@ MAIN FOOTER
 /*************************************************
 FOOTER BOTTOM
 *************************************************/
+
+#copyright {
+  padding: 40px;
+  color: white;
+  text-align: center;
+  border-top: 1px solid white;
+  width: 55%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
