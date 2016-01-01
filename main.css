@@ -1,0 +1,378 @@
+/*************************************************
+FONTS
+*************************************************/
+@import url(https://fonts.googleapis.com/css?family=Gravitas+One);
+
+
+/*************************************************
+BASE STYLING
+*************************************************/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+h1 {
+  font-family: 'Gravitas One', sans-serif;
+}
+
+div {
+  display: block;
+}
+
+/*************************************************
+FLEXBOX GRID SYSTEM
+*************************************************/
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col {
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 769px) {
+  .col {
+    flex: 1;
+  }
+}
+
+/*************************************************
+CONTAINER
+*************************************************/
+html {
+  background: url('images/bg-texture.png') repeat 0 0;
+}
+
+#container {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+#container-two {
+  display: flex;
+  flex-flow: column wrap;
+
+}
+
+#container-three {
+  background: url('images/footer-bg.png') repeat 0 0;
+}
+
+/*************************************************
+NAV/HEADER ELEMENTS
+*************************************************/
+header {
+  text-align: center;
+  width: 100%;
+}
+
+#nav-logo h1 {
+  display: block;
+  color: white;
+  background-color: rgba(229, 60, 46, 0.9);
+  padding: 20px;
+  margin: 0;
+  font-size: 2.5em;
+  font-weight: bold;
+
+}
+
+#nav-top li {
+  padding: 0 20px;
+  font-size: 2em;
+  color: #4b281b;
+  font-weight: bold;
+  display: inline-block;
+  border-right: 2px solid white;
+}
+
+#nav-top {
+  background: url('images/nav-bg.png') repeat;
+}
+
+/*************************************************
+BANNER ELEMENTS
+*************************************************/
+#banner a img {
+  display: block;
+  margin: 0 auto;
+}
+
+#nav-bottom-banner ul li {
+  font-size: 1.25em;
+  text-align: center;
+  display: inline-block;
+  background-color: rgba(0,0,0, .2);
+  color: white;
+  padding: 10px 50px;
+}
+
+#nav-bottom-banner li:hover {
+  background-color: rgba(0,0,0, .8);
+}
+
+#nav-bottom-banner {
+  display: flex;
+  justify-content: center;
+}
+
+/*************************************************
+MAIN CONTENT INTRO
+*************************************************/
+.intro {
+  color: #A67C52;
+  font-size: 2.2em;
+  text-align: left;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.city-info {
+  color: #512B1C;
+  font-size: 1em;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.city-info h2 {
+  flex-grow: 1;
+  padding: 10px 10px;
+  font-weight: bold;
+}
+
+.explore {
+  background-color: #FFA300;
+  background-image: linear-gradient( to right, #C88500, #FFA300 );
+}
+.restaurants {
+  background-color: #F15A24;
+  background-image: linear-gradient( to right, #BB481D, #F15A24 );
+}
+.stay {
+  background-color: #9DC1E0;
+  background-image: linear-gradient( to right, #819AB4, #9DC1E0 );
+}
+.community {
+  background-color: #C69C6D;
+  background-image: linear-gradient( to right, #9B7D56, #C69C6D );
+}
+#wrapper-two {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  height: 500px;
+  margin-bottom: 30px;
+}
+#main-content-middle {
+  background-color: yellow;
+  width: 16.5%;
+  height: auto;
+  border-top: 2px solid brown;
+}
+
+#main-content-middle a {
+  border-bottom: 1px solid brown;
+}
+
+.listings {
+  margin: 15px 0;
+}
+
+.listings span {
+  font-size: 1.25em;
+}
+
+#map {
+  width: 80%;
+  height: 500px;
+  background-color: white;
+}
+/*************************************************
+MAIN CONTENT MIDDLE SECIONT
+*************************************************/
+#main-content-bottom {
+  background-color: #fff;
+  color: black;
+  height: 190px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.events {
+  background-color: #DF3B30;
+  text-align: center;
+  color: white;
+}
+
+.events a {
+  color: inherit;
+}
+.event-name {
+  border-top: 2px solid brown;
+}
+
+.event-date {
+  margin-bottom: 15px;
+}
+
+.seperate {
+  width: 21.5%;
+  margin: 10px;
+  border-right: 1px dotted brown;
+}
+
+/*************************************************
+MAIN CONTENT BOTTOM TWO
+*************************************************/
+#main-content-bottom-two {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+#main-content-bottom-two h2 {
+  background-color: #DF3B30;
+  margin: 0;
+  color: white;
+}
+
+.column {
+  width: 32.5%;
+  height: 200px;
+  background-color: #fff;
+  display: inline-block;
+}
+
+
+#local-luminary {
+  background-color: #512B1C;
+  width: 438px;
+  height: 100px;
+  color: white;
+  float: right;
+}
+
+#local-luminary a {
+  color: #E1D0A5;
+}
+
+#local-luminary h2,
+#local-luminary a {
+  margin-left: 15px;
+}
+
+/*************************************************
+WEATHER AND FORM
+*************************************************/
+#weather {
+  background-color: white;
+  width: 65%;
+  height: 420px;
+
+}
+
+#mailing-list {
+  width: 30%;
+  float: right;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+#mailing-list label {
+  color: brown;
+  display: block;
+  font-weight: bold;
+  margin: 5px 0;
+
+}
+
+#mailing-list h2 {
+  width: 100%;
+  margin: 0;
+}
+
+#mailing-list input[type=text] {
+  width: 100%;
+  height: 40px;
+}
+
+#mailing-list input:focus {
+  border-color: #d9534f;
+}
+
+#submit {
+  background-color: #d9534f;
+  border: 1px solid #b52b27;
+  color: white;
+  font-weight: bold;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+#form-header {
+  color: white;
+  background-color: #DF3B30;
+  margin-bottom: -6px;
+  padding: 2px;
+}
+
+#wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+/*************************************************
+MAIN FOOTER
+*************************************************/
+#main-footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  color: white;
+}
+
+#main-footer div {
+  margin: 0 40px;
+  padding: 0 20px;
+}
+
+.left-border {
+  border-left: 2px dotted green;
+}
+
+/*************************************************
+FOOTER BOTTOM
+*************************************************/
