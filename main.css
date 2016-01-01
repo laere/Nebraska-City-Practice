@@ -68,7 +68,7 @@ FLEXBOX GRID SYSTEM
 CONTAINER
 *************************************************/
 html {
-  background: url('images/bg-texture.png') repeat 0 0;
+  background: url('https://cloud.githubusercontent.com/assets/15381804/12069593/4996513a-b007-11e5-9a4c-82c46ed41a96.png') repeat 0 0;
 }
 
 #container {
@@ -84,7 +84,7 @@ html {
 }
 
 #container-three {
-  background: url('images/footer-bg.png') repeat 0 0;
+  background: url('https://cloud.githubusercontent.com/assets/15381804/12069595/4c73d18e-b007-11e5-814a-9902ae424a38.png') repeat 0 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -123,7 +123,7 @@ header {
 }
 
 #nav-top {
-  background: url('images/nav-bg.png') repeat-x;
+  background: url('https://cloud.githubusercontent.com/assets/15381804/12069598/4f8cce20-b007-11e5-93c6-3ae030a0aaa1.png') repeat-x;
   justify-content: center;
 }
 
@@ -381,7 +381,7 @@ WEATHER AND FORM
 MAIN FOOTER
 *************************************************/
 #footer-picture {
-  background: url('images/footer-autumn.png') no-repeat;
+  background: url('https://cloud.githubusercontent.com/assets/15381804/12069594/4aae8ad8-b007-11e5-868d-c1c8d329ef1f.png') no-repeat;
   background-size: cover;
   height: 350px;
 }
