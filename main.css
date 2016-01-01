@@ -2,6 +2,7 @@
 FONTS
 *************************************************/
 @import url(https://fonts.googleapis.com/css?family=Gravitas+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600);
 
 
 /*************************************************
@@ -18,6 +19,7 @@ body {
   padding: 0;
   margin: 0;
   line-height: 1.5;
+  font-family: 'Open-Sans', sans-serif;
 }
 
 ul {
@@ -83,6 +85,9 @@ html {
 
 #container-three {
   background: url('images/footer-bg.png') repeat 0 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 /*************************************************
@@ -163,6 +168,7 @@ MAIN CONTENT INTRO
   text-align: left;
   font-weight: bold;
   margin: 20px 0;
+  letter-spacing: 1px;
 }
 
 .city-info {
@@ -320,7 +326,7 @@ WEATHER AND FORM
 }
 
 #mailing-list {
-  width: 30%;
+  width: 33%;
   float: right;
   display: flex;
   flex-flow: column wrap;
@@ -407,9 +413,8 @@ FOOTER BOTTOM
   color: white;
   text-align: center;
   border-top: 1px solid white;
-  width: 55%;
+  width: 60%;
   display: flex;
-  flex-flow: row nowrap;
   justify-content: space-between;
   margin: 0 auto;
 }
