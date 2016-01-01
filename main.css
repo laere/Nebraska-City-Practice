@@ -116,6 +116,7 @@ header {
 
 #nav-top {
   background: url('https://cloud.githubusercontent.com/assets/15381804/12069598/4f8cce20-b007-11e5-93c6-3ae030a0aaa1.png') repeat;
+  justify-content: center;
 }
 
 /*************************************************
